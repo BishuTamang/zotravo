@@ -1,0 +1,76 @@
+body{
+    box-sizing: border-box;
+    width: 100wh;
+    padding: 0;
+    margin: 0;
+}
+
+.body-container{
+  padding: 0 0px !important;
+  /* width: 100wh; */
+
+}
+.fixed-top{
+  padding-right: 4rem !important;
+  padding-left: 4rem !important
+}
+
+.sticky-top{
+  /* transition: transform 0.5s ease !important;
+  padding: 0.5rem 3.05rem !important; */
+  box-shadow: 0px 2px 5px #888888;
+  background-color: white;
+}
+#carouselExampleControls {
+  height: 100vh;
+}
+/* #carouselExampleControls .carousel-inner .carousel-item .img {
+  /* background: cover !important; */
+  /* object-fit: cover; */
+/* } */
+
+#logo {
+    height: 100px;
+    width: 90px;
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .card img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 0;
+  }
+  .carousel-inner {
+    padding: 1em;
+  }
+
+  .carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the entire container */
+}
+
+/* @media (min-width: 768px) {
+    .card img {
+      height: 11em;
+    }
+ } */
