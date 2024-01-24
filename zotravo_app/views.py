@@ -17,3 +17,8 @@ def detailPage(request):
 def orderPage(request):
    context = {}
    return render (request, 'zotravo/orderPage.html') 
+   
+def loginPage(request):
+   context = {}
+   return render (request, 'zotravo/login.html') 
+
